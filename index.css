@@ -1,0 +1,105 @@
+/*CSS APLICADO EM TODA PÁGINA INICIAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+} 
+
+
+/*ESTILO BODY*/
+body{
+    background-color: black;
+    height: 100vh;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+
+
+/* ESTILO HEADER */
+header img{
+    width: 200px;
+    border: 10px solid rgb(53, 109, 230);
+}
+header{
+    padding: 40px 4%;
+}
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a{
+    font-size: 25px;
+    color: grey;
+    text-decoration: none;
+}
+header a:hover{
+    color: white;
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 80px;
+}
+
+/*TEXTO/IMAGEM DO SITE */
+section .top-site{
+    padding: 40px 4%;
+}
+
+section.top-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.top-site h1{
+    color:white;
+    font-size: 45px;
+}
+
+.top-site h1 span{
+    color:rgb(53, 109, 230);
+    font-size: 45px;
+}
+
+.top-site p{
+    font-size: 20px;
+    color: white;
+    margin: 40px 0;
+}
+
+main img{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    animation: floater 2s ease-in-out infinite alternate;
+}
+
+main .btn-contato button{
+    align-items: center;
+    color: white;
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(53, 109, 230);
+    cursor: pointer;}
+
+@keyframes floater{
+    0%{
+        top: 10px;}
+    
+    100%{
+        top:50px;}
+    }

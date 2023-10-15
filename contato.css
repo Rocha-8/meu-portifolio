@@ -1,0 +1,97 @@
+/*CSS APLICADO EM TODA PÁGINA INICIAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*ESTILO BODY*/
+body {
+    
+    background-color: black;
+}
+/*ESTILO HEADE*/
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn-inicio {
+    display: flex;
+    align-items: flex-start;
+}
+
+.btn-inicio button {
+    color: white;
+    padding: 10px 40px;
+    font-size: 25px;
+    font-weight: 700;
+    border: 0;
+    border-radius: 30px;
+    background-color: rgb(53, 109, 230);
+    cursor: pointer;}
+
+header .btn-inicio button:hover{
+    color: black;}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+}
+span{
+    color: rgb(53, 109, 230);;
+
+}
+
+.container {
+    align-items: center;
+    padding: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
